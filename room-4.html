@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Jad</title>
+    <link rel="stylesheet" href="public/bootstrap.min.css" />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Hotel Jad</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link active" aria-current="page" href="rooms.html">Rooms</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="room">
+        <img src="images/room-4.jpg" alt="" srcset="">
+    </header>
+
+    <main class="pt-5 container">
+        <div class="py-5">
+          <div class="w-50 mx-auto"></div>
+          <div>
+            <form class="p-4 w-75 mx-auto" action="success.html">
+                <h1>Required Informations</h1><br>
+              <div class="form-floating mt-3 mb-3">
+                <input
+                  type="text"
+                  class="form-control border-dark"
+                  id="floatingInput"
+                  placeholder="Your Name"
+                  required
+                />
+                <label for="floatingInput">First Name</label>
+              </div>
+              <div class="form-floating mt-3 mb-3">
+                <input
+                  type="text"
+                  class="form-control border-dark"
+                  id="floatingInput"
+                  placeholder="Your Name"
+                  required
+                />
+                <label for="floatingInput">Last Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control border-dark"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="tel"
+                  class="form-control border-dark"
+                  id="floatingInput"
+                  placeholder="+0123456789"
+                  required
+                />
+                <label for="floatingInput">Phone</label>
+              </div>
+              <div class="mb-3 row row-cols-2">
+                <div class="row w-100">
+                    <div class="col d-flex align-items-center">
+                        <label for="startdate" class="h3">Start Date:</label>
+                    </div>
+                    <div class="col">
+                        <input
+                          class="border-1 p-3 border-dark rounded-3"
+                          type="date"
+                          placeholder="Start Date"
+                          required
+                        />
+                    </div>
+                    <div class="col"></div>
+                </div>
+              </div>
+              <div class="form-floating mt-3 mb-3">
+                <input
+                  type="number"
+                  class="form-control border-dark"
+                  id="totalDays"
+                  placeholder="How Many Days?"
+                  required
+                />
+                <label for="floatingInput">How Many Days?</label>
+              </div>
+              <div class="mt-4 mb-3">
+                  <h3>Total Cost: <span id="totalCost">0</span> BDT</h3>
+              </div>
+              <button type="submit" class="btn btn-dark w-100 py-3">Confirm</button>
+            </form>
+          </div>
+        </div>
+      </main>
+  
+
+    <footer class="bg-dark text-white">
+      <div class="container pt-5">
+        <div class="row row-cols-3">
+          <div>
+            <h3 class="pb-3">Hotel Jad</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              nemo at itaque iusto, laborum commodi iste dolore in deserunt ut
+              ipsa culpa atque magni architecto repudiandae. A molestiae impedit
+              quae.
+            </p>
+          </div>
+          <div>
+            <h3 class="pb-3">Quick Navigation</h3>
+            <a class="text-decoration-none text-white d-block" href="index.html"
+              >Home</a
+            >
+            <a class="text-decoration-none text-white d-block" href="rooms.html"
+              >Rooms</a
+            >
+            <a class="text-decoration-none text-white d-block" href="about.html"
+              >About</a
+            >
+            <a
+              class="text-decoration-none text-white d-block"
+              href="contact.html"
+              >Contact</a
+            >
+          </div>
+          <div>
+            <h3 class="pb-3">Contact Us</h3>
+            <p class="my-1">Address: Farmgate, Dhaka, Bangladesh</p>
+            <p class="my-1">Phone: +0123456789</p>
+            <p class="my-1">Email: contact@hoteljad.com</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="m-0 p-3">&copy; 2021 Hotel Jad. Designed by Shehjad.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="public/bootstrap.min.js"></script>
+    <script src="public/script.js"></script>
+  </body>
+</html>

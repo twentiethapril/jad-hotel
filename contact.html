@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Jad</title>
+    <link rel="stylesheet" href="public/bootstrap.min.css" />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Hotel Jad</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="rooms.html">Rooms</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="contact">
+        <img src="images/contact.jpg" alt="" srcset="">
+        <div class="centered text-center">
+            <h1 class="display-1 fw-bold">Contact Us</h1>
+            <h2>When You Needed</h2>
+        </div>
+    </header>
+
+    <main class="container py-5">
+      <div class="py-5">
+        <div class="py-3">
+          <form class="card border-dark p-4 w-50 mx-auto">
+            <h1 class="m-0 pb-4 text-center text-dark">Get In Touch</h1>
+
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control border-dark"
+                id="floatingInput"
+                placeholder="Your Name"
+                required
+              />
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control border-dark"
+                id="floatingInput"
+                placeholder="name@example.com"
+                required
+              />
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control border-dark"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 150px"
+                required
+              ></textarea>
+              <label for="floatingTextarea">Leave a comment here</label>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white">
+      <div class="container pt-5">
+        <div class="row row-cols-3">
+          <div>
+            <h3 class="pb-3">Hotel Jad</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              nemo at itaque iusto, laborum commodi iste dolore in deserunt ut
+              ipsa culpa atque magni architecto repudiandae. A molestiae impedit
+              quae.
+            </p>
+          </div>
+          <div>
+            <h3 class="pb-3">Quick Navigation</h3>
+            <a class="text-decoration-none text-white d-block" href="index.html"
+              >Home</a
+            >
+            <a class="text-decoration-none text-white d-block" href="rooms.html"
+              >Rooms</a
+            >
+            <a class="text-decoration-none text-white d-block" href="about.html"
+              >About</a
+            >
+            <a
+              class="text-decoration-none text-white d-block"
+              href="contact.html"
+              >Contact</a
+            >
+          </div>
+          <div>
+            <h3 class="pb-3">Contact Us</h3>
+            <p class="my-1">Address: Farmgate, Dhaka, Bangladesh</p>
+            <p class="my-1">Phone: +0123456789</p>
+            <p class="my-1">Email: contact@hoteljad.com</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="m-0 p-3">&copy; 2021 Hotel Jad. Designed by Shehjad.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="public/bootstrap.min.js"></script>
+    <script src="public/script.js"></script>
+  </body>
+</html>
